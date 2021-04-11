@@ -1,10 +1,10 @@
+require "./methods.rb"
+
 plans = [
   { place: "沖縄", price: 10000 },
   { place: "北海道", price: 20000 },
   { place: "九州", price: 15000 }
 ]
-
-require "./methods.rb"
 
 FIRST_PLAN_NUM = 1
 LAST_PLAN_NUM = (FIRST_PLAN_NUM + plans.size) -1
